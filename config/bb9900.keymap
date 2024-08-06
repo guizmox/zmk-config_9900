@@ -248,7 +248,7 @@
         */
                  		&none                                                                                	&none
 
-		            &mtt  K_CMENU TAB		 &msk LGUI LGUI		      &mkp LCLK			&mtt ESC K_BACK		 &mou RCLK MCLK
+		            &mtt  K_CMENU K_SCROLL_UP	 &msk EP_TOG CLCK	      &mkp LCLK			&mtt ESC K_BACK		 &mou RCLK K_SCROLL_DOWN
 
     &mtt LS(Q) Q	&mtt LS(W) W      &mtt LS(E) E	&mtt LS(R) R     &mtt LS(T) T	&mtt LS(Y) Y	&mtt LS(U) U	&mtt LS(I) I	&mtt LS(O) O	    &mtt LS(P) P
     &mtt LS(A) A	&mtt LS(S) S      &mtt LS(D) D	&mtt LS(F) F     &mtt LS(G) G	&mtt LS(H) H	&mtt LS(J) J	&mtt LS(K) K	&mtt LS(L) L        &kp BSPC
@@ -265,13 +265,13 @@
             bindings = <        
                 		&none                                                                           	 &none
 
-    	         	&kp K_SCROLL_UP			&mtt K_PREV K_VOL_DN	        &hm2 EP_TOG K_PP		&mtt K_NEXT K_VOL_UP	&kp K_SCROLL_DOWN
+    	         	&kp TAB			&mtt K_PREV K_VOL_DN	        &hm2 EP_TOG K_PP		&mtt K_NEXT K_VOL_UP	&kp MCLK
 
     &mtt TILDE HASH	   	&mtt HOME N1	   &mtt UP	N2	   &mtt PG_UP   N3	   &mtt LBKT LPAR	&mtt RBKT RPAR	   &mtt LT UNDER     &mtt GT MINUS	 &mtt CARET PLUS	&mtt PERCENT AT
     &mtt EQUAL STAR		&mtt LEFT N4	   &mtt DOWN	N5	   &mtt RIGHT	N6	   &mtt BSLH SLASH	&mtt PIPE COLON	   &mtt AMPS SEMI    &mtt APOS APOS	 &mtt DQT DQT     	&mtt DEL BSPC
     &MAN	      	     	&mtt END N7	   &mtt DOWN	N8	   &mtt PG_DN	N9	   &mtt LBRC QMARK	&mtt RBRC EXCL	   &mtt GRAVE COMMA  &mtt DOT DOT	 &mtt PSCRN DLLR 	&kp ENTER
 	
-    		         &SHFT				 &hm2 EP_TOG N0 		&kp SPACE			&EALT				 &sk LCTRL
+    		&SHFT				 &hm2 LGUI N0	 		&kp SPACE			&EALT				 &sk LCTRL
 
 
             >;
@@ -289,7 +289,7 @@
     &kp A	     	&kp S   	&kp D      	&kp F	 		&kp G		     	&kp H	      	&kp J       	&kp K       	 &kp L		&kp BSPC
     &EMU	 	&kp Z     	&kp X     	&kp C    		&kp V	     		&kp B		&kp N        	&kp M       	 &kp DLLR	&kp ENTER
 	
-    		&SHFT				 &hm2 EP_TOG N0			&kp SPACE				&EALT				&sk LCTRL
+    		&SHFT				 &hm2 LGUI N0			&kp SPACE				&EALT				&sk LCTRL
             >;
         };
 
